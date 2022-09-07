@@ -1,0 +1,23 @@
+#canvas{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black ;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: hidden;
+    
+    
+    min-height: 960px;
+     min-width: 960px;
+     max-width: 960px;
+     max-height: 960px;
+} 
+
+
+.gri{
+    display: flex;
+   flex-shrink: 1;
+    flex-grow: 1;
+   margin: -1px;
+
+}
